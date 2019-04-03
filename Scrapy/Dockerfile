@@ -1,13 +1,13 @@
-# Description OracleJDK/RobotFramework
+# Description Pyhton/Scrapy
 
 FROM python
 MAINTAINER Ilyes BEN BRIK <ilyes.brik@gmail.com>
 
-# Update system
+# Update OS
     RUN apt-get update
-
-# Install RobotFramework
-    RUN pip3 install robotframework
+    
+# Install Scrapy
+    RUN pip install Scrapy
 
 # Create a workspace
 
