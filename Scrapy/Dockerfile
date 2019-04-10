@@ -16,5 +16,5 @@ MAINTAINER Ilyes BEN BRIK <ilyes.brik@gmail.com>
 
 # Make the container running
 
-    WORKDIR /root
+    WORKDIR /workspace
     CMD ["/bin/bash"]
